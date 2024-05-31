@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Century+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
 
 .style1 {
     background: black;
     padding: 0.5rem 0;
-    position: fixed;
-    width: 100%;
+    position: sticky;
     top: 0;
     z-index: 30;
     backdrop-filter: blur(50px);
-    font-family: 'Century Gothic', sans-serif;
 }
 
 .content {
@@ -23,13 +23,12 @@
 .logo {
     width: 15%;
     height: auto;
-    margin-left: 0;
 }
 
 .content ul {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     list-style: none;
 }
 
@@ -57,7 +56,7 @@
     bottom: -0.6rem;
     opacity: 0;
     transform: translateX(-1.5rem);
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .catalogo:hover::before {
@@ -76,12 +75,11 @@
     color: white;
     background: linear-gradient(90deg, #FB8500 0%, #FAA307 100%);
     padding: 0.6rem 2rem;
-    position: relative;
     cursor: pointer;
     border-radius: 10px;
     font-weight: bold;
     outline: 1.5px solid transparent;
-    transition: all 0.3 ease;
+    transition: all 0.5 ease;
 
 }
 
@@ -90,5 +88,54 @@
     background: black;
     outline: 1.5px solid #FB8500;
 }
+
+.opciones{
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-radius: 0.4rem;
+    color:white;
+    background: linear-gradient(0deg, #FB8500 0%, #FAA307 100%);
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    display: none;
+
+}
+
+.opciones:hover{
+    color:#FB8500;
+    background: black;
+    border: 1px solid #FB8500;
+}
+
+@media (max-width: 425px) {
+    .logo{
+        width: 10rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 769px) {   /*es para que cuando la pantalla llegue a ese limite no muestre el contenido es decir cambia la propiedad de display */
+    .opciones{
+        display: block;
+    }
+
+    .content ul {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1325px) {
+    .style1{
+        padding: 0 2rem;
+    }
+}
+
 
 

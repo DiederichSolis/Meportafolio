@@ -26,6 +26,16 @@ const Navbar = () => {
                         Contactarme
                     </button>
                 </ul>
+
+                <button clasname="opciones" onClick={() => {}}>
+                    <span
+                    class={"material-symbols-outlined"}
+                    style={{fontSize: "1.6rem"}}
+                    >
+                        Menu
+                    </span>
+
+                </button>
               
 
             </div>
