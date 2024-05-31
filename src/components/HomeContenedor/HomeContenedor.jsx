@@ -5,19 +5,17 @@ const HomeContenedor = () =>{
     return(
         <section className='contenedorprincipal'>
             <div className='contenedorhome'>
-                <h1>Soy Diederich Solis</h1>
-                <h2>Programador Junior</h2>
+                <h1>Soy Diederich Solis Programador Junior</h1>
                 <p>
                 Programador Junior con experiencia en desarrollo web | 
-                Apasionado por aprender y aplicar nuevas tecnologías.
+                Apasionado por aprender y aplicar nuevas tecnologías. Habilidad para trabajar en equipo y resolver problemas con soluciones eficientes y creativas.
                 </p>
-                <p>
-                Habilidad para trabajar en equipo y resolver problemas con soluciones eficientes y creativas.
-                </p>
+             
             </div>
             <div className='styleimg'>
                 <div>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/WhatsApp%20Image%202024-05-31%20at%2012.54.49%20AM.jpeg?alt=media&token=28fdb06b-02d2-41e1-aec6-0d160cae8d2e" alt="" />
+                  
+                    <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/WhatsApp%20Image%202024-05-31%20at%201.46.12%20AM.jpeg?alt=media&token=de1fd017-80cf-4801-a1d2-df89a00f8690" alt="" />
                 </div>
 
                 <div>

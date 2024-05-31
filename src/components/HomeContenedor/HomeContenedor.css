@@ -4,35 +4,59 @@
     align-items: center;
 }
 
+
+/*se establece cada estilo que contiene mi contenedor */
 .contenedorhome{
     flex: 1;
 }
 
 .contenedorhome h1{
+    width: 100%;
     font-size: 4.2rem;
     font-weight: 600;
     line-height: 5rem;
     margin-bottom: 1rem;
 }
 
-.contenedorhome h2{
-    font-size: 3.8rem;
-    font-weight: 600;
-    line-height: 5rem;
-    margin-bottom: 1rem;
-}
+
 
 .contenedorhome p{
-   width: 70%;
+   width: 80%;
    font-weight: 400;
    line-height: 2rem;
    font-size: 1rem;
 }
-.contenedorhome img{
+
+.styleimg {
     flex: 1;
     gap: 2rem;
     align-items: center;
     margin-top: 5rem;
     flex-direction: column;
-    display: felx;
+    display: flex;
+
+}
+
+.styleimg > div{
+    display: flex;
+    align-items: flex-end;
+    gap:2rem
+}
+
+.styleimg > div >img{
+    display: flex;
+    align-items: flex-end;
+    gap:2rem;
+    width: 65%;
+    height: 65%;
+    border-radius: 50px;
+}
+
+.tecnologias > img{
+    display: flex;
+    align-items: flex-end;
+    gap:2rem;
+    width: 50%;
+    height: 50%;
+
 }
