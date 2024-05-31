@@ -5,7 +5,7 @@ const HomeContenedor = () => {
     return (
         <section className='contenedorprincipal'>
             <div className='contenedorhome'>
-                <h1>Soy Diederich Solis Programador Jr</h1>
+                <h1>Soy Diederich Solis Programador Jr 🇬🇹</h1>
                 <p>
                     Programador Junior con experiencia en desarrollo web | 
                     Apasionado por aprender y aplicar nuevas tecnologías. Habilidad para trabajar en equipo y resolver problemas con soluciones eficientes y creativas.

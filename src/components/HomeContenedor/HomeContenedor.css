@@ -13,7 +13,7 @@
     background: #FB8500;
     position: absolute;
     z-index: -1;
-    filter: blur(350px)
+    filter: blur(150px)
 }
 
 .contenedorprincipal::before{
@@ -81,6 +81,7 @@
     background-color: rgba(255, 255, 255, 0.2);
     justify-content: center;
     border-radius: 0.8rem;
+    border:5px solid #E9ECEF;
     
  }
  
@@ -106,6 +107,7 @@
     background-color: rgba(255, 255, 255, 0.2);
     justify-content: center;
     border-radius: 0.8rem;
+    border:4.5px solid #E9ECEF;
     
  }
  
