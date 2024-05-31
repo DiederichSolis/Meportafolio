@@ -14,7 +14,9 @@ const HomeContenedor = () =>{
             </div>
             <div className='styleimg'>
                 <div>
-                  
+                    <div className='tecnologias1'>
+                        <img src="https://www.uvg.edu.gt/wp-content/uploads/Logo_AF_CAMPUSCENTRAL-07.png" alt="" />
+                    </div>
                     <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/WhatsApp%20Image%202024-05-31%20at%201.46.12%20AM.jpeg?alt=media&token=de1fd017-80cf-4801-a1d2-df89a00f8690" alt="" />
                 </div>
 
@@ -28,6 +30,8 @@ const HomeContenedor = () =>{
                     <div className='tecnologias'>
                         <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/Remove-bg.ai_1717139594909.png?alt=media&token=1a8abe9b-ad6d-4b4e-8d7b-10429157cdf3" alt="" />
                     </div>
+                    
+                    
                 </div>
 
                 
