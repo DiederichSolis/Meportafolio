@@ -1,17 +1,17 @@
-import React from 'react'
-import './Habilidades.css'
+import React from 'react';
 import { HABILIDADES } from '../../utils/data';
-import cardsHabilidades from './cards/cards';
+import CardsHabilidad from './CardsHabilidad/CardsHabilidad';
 
 const Habilidades = () => {
     return (
         <section className='contenidoPrincipal'>
             <h5>Habilidades</h5>
 
-            <div className='contenido'>
-            <div className='habilidades'>
+            <div className='styleContenido'>
+            <div className='styleHabilidades'>
                 {HABILIDADES.map((item) =>(
-                    <cardsHabilidades
+                
+                    <CardsHabilidad
                     key={item.titulo}
                     urlico={item.urlicono}
                     titulo={item.titulo}

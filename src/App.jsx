@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import HomeContenedor from './components/HomeContenedor/HomeContenedor';
 import Habilidades from './components/Habilidades/Habilidades';
+import cards from './components/Habilidades/CardsHabilidad/CardsHabilidad';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <div className="containerH">
       <HomeContenedor />
       <Habilidades />
+      <cards />
     </div>
     </>
   );
