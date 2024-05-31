@@ -1,0 +1,38 @@
+.contenedorprincipal{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.contenedorhome{
+    flex: 1;
+}
+
+.contenedorhome h1{
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.contenedorhome h2{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.contenedorhome p{
+   width: 70%;
+   font-weight: 400;
+   line-height: 2rem;
+   font-size: 1rem;
+}
+.contenedorhome img{
+    flex: 1;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+    flex-direction: column;
+    display: felx;
+}
