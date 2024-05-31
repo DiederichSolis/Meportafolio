@@ -23,6 +23,7 @@
 .logo {
     width: 15%;
     height: auto;
+    margin-left: 0;
 }
 
 .content ul {
@@ -38,24 +39,56 @@
 
 .catalogo {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: white;
     position: relative;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.catalogo::before {
+    content:"";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #778DA9 0%, #FB8500 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+
+.catalogo:hover::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .contactarme {
-    background: none;
-    border: 1px solid white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    padding: 0.5rem 1rem;
+    background: linear-gradient(90deg, #FB8500 0%, #FAA307 100%);
+    padding: 0.6rem 2rem;
+    position: relative;
     cursor: pointer;
-    font-size: 1.2rem;
-    font-family: 'Century Gothic', sans-serif;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: 1.5px solid transparent;
+    transition: all 0.3 ease;
+
 }
 
-.contactarme:hover {
-    background: white;
-    color: black;
+.contactarme:hover{
+    color: white;
+    background: black;
+    outline: 1.5px solid #FB8500;
 }
+
+
