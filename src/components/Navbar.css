@@ -114,14 +114,14 @@
     border: 1px solid #FB8500;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .logo{
         width: 100%;
         height: 100%;
     }
 }
 
-@media (max-width: 600px) {   /*es para que cuando la pantalla llegue a ese limite no muestre el contenido es decir cambia la propiedad de display */
+@media (max-width: 740px) {   /*es para que cuando la pantalla llegue a ese limite no muestre el contenido es decir cambia la propiedad de display */
     .opcionestyle{
         display: block;
     }

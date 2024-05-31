@@ -10,7 +10,7 @@ const CelNav = ({isOpen, toggleMenu}) => {
         onClick={toggleMenu}
         >
             <div className="contenedor">
-                <img className="logo" src="https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/Blue%20Purple%20Futuristic%20Technology%20Presentation%20(2).png?alt=media&token=58cde758-b18c-45ff-8259-465dcc5acd53" alt="" />
+                <img className="logo" src="https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/Blue%20Purple%20Futuristic%20Technology%20Presentation%20(3).png?alt=media&token=ba45b64c-aa00-4932-85ff-8b2f101a7b06" alt="" />
                 <ul>
                     <li>
                         <a className="catalogo">Home</a>
