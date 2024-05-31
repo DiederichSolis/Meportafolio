@@ -126,3 +126,125 @@
  .tecnologias img:hover{
     transform: translateY(-0.5rem);
  }
+
+ 
+ @media(max-width: 1000px){ /*se modifica cuando esta 1000px cambia los parametros de mis estilos y asi con las demas media*/
+    .contenedorhome h1{
+
+        font-size: 3.2rem;
+        line-height: 3.9rem;
+    }
+
+    .contenedorhome p{
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .styleimg > div > img{
+        width: 60%; 
+    }
+
+    .tecnologias{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .tecnologias1{
+        width:4rem;
+        height: 4rem;
+    }
+
+    .tecnologias img{
+        width: 50%;
+    }
+
+    .tecnologias1 img{
+        width: 50%;
+    }
+ }
+
+ @media(max-width: 400px){
+    .contenedorhome h1{
+        font-size: 100%;
+        line-height: 4rem;
+    }
+
+    .contenedorhome p{
+        font-size: 0.8rem;
+        line-height: 1.6rem;
+    }
+
+    .styleimg{
+        margin-left: none;
+        gap: 1rem;
+    }
+
+    .styleimg > div {
+        gap: 1rem;
+    }
+
+    .styleimg > div > img{
+        width: 50%;
+    }
+
+    .tecnologias{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .tecnologias1{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .tecnologias1 img{
+        width: 45%;
+    }
+
+    .tecnologias img{
+        width: 45%;
+    }
+
+
+
+ }
+
+ @media(max-width: 850px){
+    .contenedorprincipal{
+        flex-direction: column;
+    }
+
+    .styleimg{
+        margin: 2rem 0 2rem 0;
+    }
+
+    .contenedorprincipal h1{
+        margin-top: 3rem;
+    }
+
+    .contenedorhome h1,
+    .contenedorhome p
+    {
+        width: auto;
+        text-align: center;
+
+    }
+
+    .contenedorprincipal::after,
+    .contenedorprincipal::before{
+        content: " ";
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .contenedorprincipal::after{
+        top:0%;
+        left: 0%;;
+    }
+
+    .contenedorprincipal::before{
+        top: 1.8rem;
+        right:0%;
+    }
+
+ }
