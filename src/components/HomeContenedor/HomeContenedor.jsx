@@ -39,7 +39,7 @@ const HomeContenedor = () => {
                     </div>
 
                     <div className='tecnologias'>
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/DiederichSolis" target="_blank" rel="noopener noreferrer">
                           <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="GitHub Logo" />
                         </a>
                     </div>
