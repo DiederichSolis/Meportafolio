@@ -5,13 +5,30 @@
 }
 
 
+.contenedorprincipal::before{
+    content: "";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28rem;
+    background: #FB8500;
+    position: absolute;
+    z-index: -1;
+    filter: blur(350px)
+}
+
+.contenedorprincipal::before{
+    bottom:2rem;
+    right: 0rem;
+
+}
+
 /*se establece cada estilo que contiene mi contenedor */
 .contenedorhome{
     flex: 1;
 }
 
 .contenedorhome h1{
-    width: 100%;
+    width: 110%;
     font-size: 4.2rem;
     font-weight: 600;
     line-height: 5rem;
@@ -21,7 +38,7 @@
 
 
 .contenedorhome p{
-   width: 95%;
+   width: 99%;
    font-weight: 400;
    line-height: 2rem;
    font-size: 1rem;
@@ -61,7 +78,7 @@
     align-items: center;
     display: flex;
     text-align: center;
-    border: 2px solid #FB8500;
+    border: 2px solid white;
     justify-content: center;
     border-radius: 0.8rem;
     
@@ -83,7 +100,7 @@
     align-items: center;
     display: flex;
     text-align: center;
-    border: 2px solid #FB8500;
+    border: 2px solid white;
     justify-content: center;
     border-radius: 0.8rem;
     
@@ -97,4 +114,11 @@
      height: 65%;
      border-radius: 10px;
  
+ }
+
+ /*es para darle como animacion a las img*/
+ .styleimg > div > img:hover, 
+ .tecnologias1 img:hover,
+ .tecnologias img:hover{
+    transform: translateY(-0.5rem);
  }
