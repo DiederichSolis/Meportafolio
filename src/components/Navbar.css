@@ -1,0 +1,25 @@
+.const syle1{
+    background:'black';
+    padding: 0.5rem 0;
+    top: 0;
+    z-index: 30;
+    backdrop-Filter: blur(50px)
+}
+
+.const content {
+    maxwidth:1300px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:1rem 0;
+    margin: 0 auto;
+}
+
+c.onst logo {
+    width:'12rem',
+    height:'auto'
+}
+
+.const syle1 ul{
+
+}
