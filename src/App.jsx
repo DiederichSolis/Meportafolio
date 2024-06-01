@@ -5,6 +5,7 @@ import HomeContenedor from './components/HomeContenedor/HomeContenedor';
 import Habilidades from './components/Habilidades/Habilidades';
 import cards from './components/Habilidades/CardsHabilidad/CardsHabilidad';
 import Experiencia from './components/Experiencia/Experiencia';
+import Contacto from './components/Contacto/Contacto';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <HomeContenedor />
       <Habilidades />
       <Experiencia />
-      <cards />
+      <Contacto />
     </div>
     </>
   );

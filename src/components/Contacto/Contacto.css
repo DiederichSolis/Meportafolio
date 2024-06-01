@@ -1,0 +1,17 @@
+.contacto-contenedor{
+    margin: 4rem 0;
+    position: relative;
+}
+
+.contacto-contenedor h5{
+    font-size: 2rem;
+    font-weight: 600;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+
+.contacto-cont{
+    display: flex;
+    gap: 3rem;
+}
