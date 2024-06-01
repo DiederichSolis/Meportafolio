@@ -54,15 +54,15 @@ export const HABILIDADES = [
     },
 ];
 
-export const EXPERIENCIA =[
+export const EXPERIENCIA_W=[
     {
         title:"Desarrollador Full Stack Jr - IGSS",
         date:"Marzo 2024 - Presente",
         resposabilidades:[
-            "Desarrollo el apartado de Carga de documentos para el sistema de Recursos Humanos",
-            "Desarrollo de APIs en el backend para poder consumirlas, mandato de informacion para mostarlo en pantalla",
-            "Desarrollo del frontend consumiendo las APIs generdas, validacion de informacion ingresada por el user",
-            "Desarrollo del apartado de Analista sobre la Carga de documentos, mostrar formulario con datos de los usuario"
+            "Desarrollo del apartado de Carga de documentos para el sistema de Recursos Humanos.",
+            "Desarrollo de APIs en el backend para poder consumirlas, mandato de informacion para mostarlo en pantalla.",
+            "Desarrollo del frontend consumiendo las APIs generdas, validacion de informacion ingresada por el user.",
+            "Desarrollo del apartado de Analista sobre la Carga de documentos, mostrar formulario con datos de los usuario."
             
         ],
         Imagenes: "https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/Blue%20Purple%20Futuristic%20Technology%20Presentation%20(4).png?alt=media&token=ee55b398-3210-4663-b5c8-55b768cc9eb5",
