@@ -14,7 +14,7 @@ const Habilidades = () => {
 
     return (
         <section className='contenidoPrincipal'>
-            <h4>Habilidades</h4>
+            <h4>Habilidades como desarrollador</h4>
 
             <div className='styleContenido'>
             <div className='styleHabilidades'>
