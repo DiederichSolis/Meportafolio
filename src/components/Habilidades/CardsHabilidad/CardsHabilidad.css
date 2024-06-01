@@ -1,0 +1,69 @@
+.iconoHabilidades{
+    border:1.5px;
+    border-radius: 0.65rem;
+    justify-content: center;
+    background: #FB8500;
+    border:0.25rem solid #E9ECEF;
+    display: flex;
+    height: 4rem;
+    width: 4rem;
+    align-items: center;
+    top:-1rem;
+    left:-1rem;
+    position: absolute;
+}
+.iconoHabilidades img{
+    width: 2rem;
+    object-fit: contain;
+    height: auto;
+}
+
+
+.cardHabilidades{
+    border-radius: 0.65rem;
+    border:1.5px solid white;
+    padding: 2.5rem;
+    text-align: center;
+    background: rgba(0, 95, 115, 0.38);
+    backdrop-filter: blur(1rem);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.cardHabilidades span{
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+.cardHabilidades:hover,
+.cardHabilidades.active{
+    background: linear-gradient(180deg,#DEE2E6 0%,#6C757D 100%);
+}
+
+
+@media (max-width: 1000px){
+    .cardHabilidades{
+        padding: 2rem;
+    }
+
+    .cardHabilidades span{
+        font-size: 1rem;
+    }
+
+    .iconoHabilidades{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .iconoHabilidades img{
+        width: 1.6rem;
+    }
+}
+
+@media (max-width: 720px){
+    .cardHabilidades{
+        font-size: 0.9rem;
+    }
+}
+

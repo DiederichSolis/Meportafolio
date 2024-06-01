@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HABILIDADES } from '../../utils/data';
 import CardsHabilidad from './CardsHabilidad/CardsHabilidad';
+import './Habilidades.css';
 
 const Habilidades = () => {
+
+    const [selectedSkill, setSelectedSkill] = useState(HABILIDADES[0]);
+    const handleSelectedSkill = (data) =>{
+        setSelectedSkill(data);
+    }
+
     return (
         <section className='contenidoPrincipal'>
-            <h5>Habilidades</h5>
+            <h4>Habilidades</h4>
 
             <div className='styleContenido'>
             <div className='styleHabilidades'>
@@ -20,7 +27,9 @@ const Habilidades = () => {
 
             </div>
 
-            <div className='informacion'></div>
+            <div className='informacion'>
+
+            </div>
             </div>
         </section>
         

@@ -1,0 +1,27 @@
+.contenidoPrincipal{
+    margin: 4rem 0;
+    position:relative;
+}
+
+.contenidoPrincipal h4{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+}
+
+.informacion{
+    flex:1;
+}
+.styleContenido{
+    display: flex;
+    align-items: flex-start;
+    gap:2rem;
+}
+
+.styleHabilidades{
+    flex:1;
+    display: grid;
+    grid-gap:3rem;
+    grid-template-columns: repeat(2,1fr);
+
+}
