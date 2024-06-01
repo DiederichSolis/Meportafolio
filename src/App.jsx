@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HomeContenedor from './components/HomeContenedor/HomeContenedor';
 import Habilidades from './components/Habilidades/Habilidades';
 import cards from './components/Habilidades/CardsHabilidad/CardsHabilidad';
+import Experiencia from './components/Experiencia/Experiencia';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <div className="containerH">
       <HomeContenedor />
       <Habilidades />
+      <Experiencia />
       <cards />
     </div>
     </>

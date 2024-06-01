@@ -55,12 +55,40 @@
 }
 
 
-
 .styleHabilidades,
 .styleContenido{
     grid-gap: 2rem;
 }
 
 
+}
 
+@media(max-width: 700px){
+    .styleContenido{
+        flex-direction: column-reverse;
+        gap:3rem
+    }
+
+    .styleHabilidades,
+    .informacion{
+        width: 100%;
+    }
+
+
+    .contenidoPrincipal h4{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .contenidoPrincipal::after,
+    .contenidoPrincipal::before{
+        width: 18rem;
+        height: 18rem;
+    }
+}
+
+@media(max-width: 600px){
+    .contenidoPrincipal{
+        padding: 0;
+    }
 }
