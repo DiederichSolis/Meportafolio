@@ -8,7 +8,7 @@ const HabilidadesInfo = ({heading, skills}) =>{
         <div className="habilidadesinfocontenedor">
             {skills.map((item,index) =>(
                 <React.Fragment key={`skill_${index}`}>
-                    <div className="habilidad.info">
+                    <div className="habilidad-info">
                         <p>{item.habilidad}</p>
                         <p className="medida">{item.medida}</p>
                     </div>

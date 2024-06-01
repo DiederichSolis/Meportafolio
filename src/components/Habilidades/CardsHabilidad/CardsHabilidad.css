@@ -2,7 +2,7 @@
     border:1.5px;
     border-radius: 0.65rem;
     justify-content: center;
-    background: #FB8500;
+    background: linear-gradient(180deg, #E85D04 0%, #FB8500 100%);
     border:0.25rem solid #E9ECEF;
     display: flex;
     height: 4rem;
@@ -24,7 +24,7 @@
     border:1.5px solid white;
     padding: 2.5rem;
     text-align: center;
-    background: rgba(0, 95, 115, 0.38);
+    background: linear-gradient(180deg, #1B263B 0%, #1c2b3c 100%);
     backdrop-filter: blur(1rem);
     position: relative;
     cursor: pointer;
