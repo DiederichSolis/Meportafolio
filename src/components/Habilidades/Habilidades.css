@@ -50,7 +50,7 @@
 
 
 
-@media(max-width: 1000px){
+@media(max-width: 1024px){
 .styleHabilidades{
     padding-left: 1rem;
 
@@ -65,7 +65,7 @@
 
 }
 
-@media(max-width: 700px){
+@media(max-width: 768px){
     .styleContenido{
         flex-direction: column-reverse;
         gap:3rem
@@ -89,7 +89,7 @@
     }
 }
 
-@media(max-width: 600px){
+@media(max-width: 425spx){
     .contenidoPrincipal{
         padding: 0;
     }

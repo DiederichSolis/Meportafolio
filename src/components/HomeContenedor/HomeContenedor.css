@@ -130,7 +130,7 @@
  }
 
  
- @media(max-width: 1000px){ /*se modifica cuando esta 1000px cambia los parametros de mis estilos y asi con las demas media*/
+ @media(max-width: 1024px){ /*se modifica cuando esta 1000px cambia los parametros de mis estilos y asi con las demas media*/
     .contenedorhome h1{
 
         font-size: 3.2rem;
@@ -165,7 +165,7 @@
     }
  }
 
- @media(max-width: 400px){
+ @media(max-width: 425px){
     .contenedorhome h1{
         font-size: 100%;
         line-height: 4rem;
@@ -211,7 +211,7 @@
 
  }
 
- @media(max-width: 850px){
+ @media(max-width: 768px){
     .contenedorprincipal{
         flex-direction: column;
     }

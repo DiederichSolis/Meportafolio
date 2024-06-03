@@ -42,7 +42,7 @@
 }
 
 
-@media (max-width: 1000px){
+@media (max-width: 1024px){
     .cardHabilidades{
         padding: 2rem;
     }
@@ -61,7 +61,7 @@
     }
 }
 
-@media (max-width: 720px){
+@media (max-width: 768px){
     .cardHabilidades{
         font-size: 0.9rem;
     }
