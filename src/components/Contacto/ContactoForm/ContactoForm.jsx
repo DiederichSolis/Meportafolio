@@ -22,11 +22,14 @@ const ContactoForm = () => {
     return (
         <div className="contacto-form">
             <form ref={form} onSubmit={sendEmail}>
-                <div className="name-cont">
+                <div className="name-cont"> 
+                    <input type="text" name="company" placeholder="Company Name" required />
                     <input type="text" name="firstname" placeholder="First Name" required />
-                    <input type="text" name="lastname" placeholder="Last Name" required />
                 </div>
+                <div className="name-cont">
+                <input type="tel" name="phone" placeholder="Phone" required />
                 <input type="email" name="email" placeholder="Email" required />
+                </div>
                 <textarea name="message" placeholder="Message" rows={3} required />
                 <button type="submit">ENVIAR</button>
             </form>

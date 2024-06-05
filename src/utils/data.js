@@ -103,5 +103,49 @@ export const EXPERIENCIA_W=[
         ],
         Imagenes: "https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/Captura%20de%20pantalla%202024-06-01%20a%20la(s)%2001.30.08.png?alt=media&token=f8f3596c-9727-4f1b-bc81-a0cfaa76ac45",
     },
+    {
+        title:"Case UX, UI Tik Tok - UVG",
+        date:"Enero 2024 - marzo 2024",
+        resposabilidades:[
+            "Rediseño de pantallas de Tik Tok basandoce en las necesidades del usuario",
+            "Uso de Figma para realizar el rediseño de las pantallas.",
+            "Implementación del feedback de parte de los usuario en el rediseño."
+            
+        ],
+        Imagenes: "https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/Brown%20Orange%20Aesthetic%20Illustration%20Mind%20Map%20Brainstorm.png?alt=media&token=7ff0ab04-aff4-403e-8091-b1582cf59567",
+    },
+    {
+        title:"API node JS - UVG",
+        date:"Mayo 2024 - Junio 2024",
+        resposabilidades:[
+            "Creacion de  API, realizacion de un set de endpoints REST para un blog",
+            "Implementacion de endpoints: GET /posts, GET /posts/:postId, POST /posts, PUT /posts/:postId, DELETE /posts/:postId",
+            "Link para visualizarlo: http://3.129.191.211/api/22952/posts"
+            
+        ],
+        Imagenes: "https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/Captura%20de%20pantalla%202024-06-04%20a%20la(s)%2021.28.23.png?alt=media&token=ba0c4fbd-ca2a-47c3-b2fd-aca9ab5c426f",
+    },
+    {
+        title:"HTML only - UVG",
+        date:"Enero 2024 - Febrero 2024",
+        resposabilidades:[
+            "Creacion de una pagina wev solamente con HTML.",
+            "Integracion de conpetos basicos de HTML",
+            "Link para visualizarlo: https://tiburoncin.lat/22952/LAB3HTML-main/html/index.html"
+            
+        ],
+        Imagenes: "https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/Captura%20de%20pantalla%202024-06-04%20a%20la(s)%2021.33.16.png?alt=media&token=22ec05f8-8bf8-4142-bb00-261b24f5cc76",
+    },
+    {
+        title:"Blog Website Champions - UVG",
+        date:"Marzo 2024 - Abril 2024",
+        resposabilidades:[
+            "Consume de mi API e implemetacion en cards para mostrar la informacion.",
+            "Integracion de una API externa e integracion de la informacion en una card",
+            "Link para visualizar: http://3.129.191.211/22952/LAB6_REACT/index.html"
+            
+        ],
+        Imagenes: "https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/Captura%20de%20pantalla%202024-06-04%20a%20la(s)%2021.38.34.png?alt=media&token=ca17593e-ad18-4cff-9e03-af3611c8e175",
+    },
 
 ]

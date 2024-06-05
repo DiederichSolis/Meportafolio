@@ -18,9 +18,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
     border-radius: 0.65rem;
-    border: 2.8px solid white;
+    border: 2.8px  ;
     background: linear-gradient(180deg, #E85D04 0%, #FB8500 100%);
     position: absolute;
     top: 55%;

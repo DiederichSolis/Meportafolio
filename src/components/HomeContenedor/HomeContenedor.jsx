@@ -21,7 +21,7 @@ const HomeContenedor = () => {
                         </a>
                     </div>
                     
-                        <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/WhatsApp%20Image%202024-05-31%20at%201.46.12%20AM.jpeg?alt=media&token=de1fd017-80cf-4801-a1d2-df89a00f8690" alt="UVG logo" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-b9423.appspot.com/o/cvimage.jpeg?alt=media&token=463e0a9f-3ee7-4dee-a25b-bbb44e8a7421" alt="UVG logo" />
                    
                 </div>
 

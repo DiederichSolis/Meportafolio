@@ -3,7 +3,6 @@
     border-radius: 0.65rem;
     justify-content: center;
     background: linear-gradient(180deg, #E85D04 0%, #FB8500 100%);
-    border:0.25rem solid #E9ECEF;
     display: flex;
     height: 4rem;
     width: 4rem;
@@ -21,7 +20,8 @@
 
 .cardHabilidades{
     border-radius: 0.65rem;
-    border:1.5px solid white;
+    border-left:3px solid rgb(201, 201, 201);
+    border-bottom:3px solid rgb(201, 201, 201);
     padding: 2.5rem;
     text-align: center;
     background: linear-gradient(180deg, #1B263B 0%, #1c2b3c 100%);
@@ -32,13 +32,14 @@
 }
 .cardHabilidades span{
     font-weight: 500;
+    font-weight: bold;
     font-size: 1.2rem;
 
 }
 
 .cardHabilidades:hover,
 .cardHabilidades.active{
-    background: linear-gradient(180deg,#DEE2E6 0%,#6C757D 100%);
+    background: linear-gradient(180deg,#223242 0%,#3d6a91 100%);
 }
 
 

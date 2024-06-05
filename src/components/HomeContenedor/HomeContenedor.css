@@ -73,15 +73,15 @@
  
 
 .tecnologias {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     align-items: center;
     display: flex;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.2);
     justify-content: center;
     border-radius: 0.8rem;
-    border:5px solid #E9ECEF;
+    border:3px solid #E9ECEF;
     
  }
  
@@ -90,8 +90,8 @@
      align-items: flex-end;
      margin: 0 auto;
      gap:2rem;
-     width: 50%;
-     height: 50%;
+     width: 60%;
+     height: 60%;
      border-radius: 10px;
      cursor: pointer;
  
@@ -99,26 +99,27 @@
 
 
 .tecnologias1 {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     align-items: center;
     display: flex;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.2);
     justify-content: center;
     border-radius: 0.8rem;
-    border:4.5px solid #E9ECEF;
+    border:3px solid #E9ECEF;
     
  }
  
  .tecnologias1  img{
-     display: flex;
-     align-items: flex-end;
-     margin: 0 auto; /*esto alinea las img dentro de mi contenedor*/
-     gap:2rem;
-     width: 55%;
-     height: 55%;
-     border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    gap:2rem;
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+    cursor: pointer;
  
  }
 
