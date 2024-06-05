@@ -33,7 +33,7 @@ const CelNav = ({ isOpen, toggleMenu }) => {
                 Contact Me
               </a>
             </li>
-            <a href="/DiederichCV.pdf" download className="no-underline">
+            <a href="/CV.pdf" download className="no-underline">
               <button className="contactarme">
                 CV
               </button>
