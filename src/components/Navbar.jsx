@@ -29,7 +29,7 @@ const Navbar = () => {
             <li>
               <Link to="contact" smooth={true} duration={500} className="catalogo">Contact Me</Link>
             </li>
-            <a href="/diederichCV.pdf" download className="no-underline">
+            <a href="/CV.pdf" download className="no-underline">
               <button className="contactarme">
                 CV
               </button>
