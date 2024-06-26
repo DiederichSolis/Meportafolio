@@ -4,7 +4,7 @@ import CardsHabilidad from './CardsHabilidad/CardsHabilidad';
 import './Habilidades.css';
 import HabilidadesInfo from './HabilidadesInfo/HabilidadesInfo';
 
-const Habilidades = () => {
+const Habilidades = ({ language }) => {
 
     const[seleccionH,setSeleccionH] = useState(HABILIDADES[0]);
     const handleSeleccion = (data) =>{
@@ -14,7 +14,7 @@ const Habilidades = () => {
 
     return (
         <section className='contenidoPrincipal'>
-            <h4>Habilidades como desarrollador</h4>
+            <h4>{language === 'es' ? 'Habilidades como desarrollador' : 'Developer skills'}</h4>
 
             <div className='styleContenido'>
             <div className='styleHabilidades'>

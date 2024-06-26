@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from 'emailjs-com';
 import './ContactoForm.css';
 
-const ContactoForm = () => {
+const ContactoForm = ({language}) => {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -31,7 +31,7 @@ const ContactoForm = () => {
                 <input type="email" name="email" placeholder="Email" required />
                 </div>
                 <textarea name="message" placeholder="Message" rows={3} required />
-                <button type="submit">ENVIAR</button>
+                <button type="submit">{language === 'es' ? 'ENVIAR' : 'SEND'}</button>
             </form>
         </div>
     );

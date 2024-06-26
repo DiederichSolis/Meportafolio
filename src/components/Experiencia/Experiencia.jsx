@@ -1,10 +1,10 @@
 import React, { useRef } from "react";
 import './Experiencia.css';
 import ExperienceCard from "./ExperieneCard/ExperienceCard";
-import { EXPERIENCIA_W } from '../../utils/data';
+import { EXPERIENCIA_W, EXPEREINCE_W} from '../../utils/data';
 import Slider from "react-slick";
 
-const Experiencia = () =>{
+const Experiencia = ({ language }) =>{
 
     const sliderRef = useRef();
 
@@ -38,7 +38,7 @@ const Experiencia = () =>{
 
     return(
         <section className="exp-contenedor">
-            <h5>Work Experience</h5>
+            <h5>{language === 'es' ? 'Experiencia Laboral' : 'Work Experience'}</h5>
 
             <div className="exp-cont">
 
@@ -50,8 +50,8 @@ const Experiencia = () =>{
                     <span className="material-symbols-outlined">chevron_left</span>
                 </div>
                 <Slider ref={sliderRef} {...settings}>
-
-                {EXPERIENCIA_W.map((item) =>(
+           
+                {EXPERIENCIA_W[language].map((item) =>(
                     <ExperienceCard key={item.title} detalles={item}/>
                 ))}
                 </Slider>
