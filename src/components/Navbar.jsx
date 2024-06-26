@@ -33,7 +33,7 @@ const Navbar = ({ onLanguageChange, language }) => {
             <li>
               <Link to="contact" smooth={true} duration={500} className="catalogo">{language === 'es' ? 'Contactarme' : 'Contact Me'}</Link>
             </li>
-            <a href="/CV.pdf" download className="no-underline">
+            <a href={language === 'es' ? '/CV.pdf' : '/CV_en.pdf'} download className="no-underline">
               <button className="contactarme">CV</button>
             </a>
           </ul>
