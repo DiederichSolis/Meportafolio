@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import './Experiencia.css';
 import ExperienceCard from "./ExperieneCard/ExperienceCard";
-import { EXPERIENCIA_W, EXPEREINCE_W} from '../../utils/data';
+import { EXPERIENCIA_W} from '../../utils/data';
 import Slider from "react-slick";
 
 const Experiencia = ({ language }) =>{
